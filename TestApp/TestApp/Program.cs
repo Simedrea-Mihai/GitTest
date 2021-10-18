@@ -8,8 +8,14 @@ namespace TestApp
         {
             Console.WriteLine("Message test 1");
 
-            while (true)
+            int i = 0;
+            while (i < 10)
+            {
                 Console.WriteLine("Test");
+
+                i++; 
+            }
+
         }
     }
 }
